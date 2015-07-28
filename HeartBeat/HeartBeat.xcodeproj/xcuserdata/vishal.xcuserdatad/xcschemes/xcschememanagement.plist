@@ -4,25 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BitWatch.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>BitWatchKit.xcscheme</key>
+		<key>HeartBeat WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>HeartBeat.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7B876B631A1C9F2D00A76FAF</key>
+		<key>C9ABE69A1B6704AC005644CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B876BB21A1CA05900A76FAF</key>
+		<key>C9ABE6AF1B6704AC005644CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9ABE6CD1B670EF8005644CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
