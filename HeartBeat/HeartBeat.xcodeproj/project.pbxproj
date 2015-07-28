@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9ABE6A11B6704AC005644CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABE6A01B6704AC005644CE /* AppDelegate.swift */; };
+		C9ABE6A31B6704AC005644CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABE6A21B6704AC005644CE /* ViewController.swift */; };
+		C9ABE6A61B6704AC005644CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6A41B6704AC005644CE /* Main.storyboard */; };
+		C9ABE6A81B6704AC005644CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6A71B6704AC005644CE /* Images.xcassets */; };
+		C9ABE6AB1B6704AC005644CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6A91B6704AC005644CE /* LaunchScreen.xib */; };
+		C9ABE6B71B6704AC005644CE /* HeartBeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABE6B61B6704AC005644CE /* HeartBeatTests.swift */; };
+		C9ABE6C91B670EF8005644CE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABE6C81B670EF8005644CE /* InterfaceController.swift */; };
+		C9ABE6CB1B670EF8005644CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6CA1B670EF8005644CE /* Images.xcassets */; };
+		C9ABE6CF1B670EF8005644CE /* HeartBeat WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6CE1B670EF8005644CE /* HeartBeat WatchKit App.app */; };
+		C9ABE6D71B670EF8005644CE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6D51B670EF8005644CE /* Interface.storyboard */; };
+		C9ABE6D91B670EF8005644CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE6D81B670EF8005644CE /* Images.xcassets */; };
+		C9ABE6DC1B670EF8005644CE /* HeartBeat WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9ABE6C41B670EF8005644CE /* HeartBeat WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9ABE6B11B6704AC005644CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9ABE6931B6704AC005644CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9ABE69A1B6704AC005644CE;
+			remoteInfo = HeartBeat;
+		};
+		C9ABE6D01B670EF8005644CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9ABE6931B6704AC005644CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9ABE6CD1B670EF8005644CE;
+			remoteInfo = "HeartBeat WatchKit App";
+		};
+		C9ABE6DA1B670EF8005644CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9ABE6931B6704AC005644CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9ABE6C31B670EF8005644CE;
+			remoteInfo = "HeartBeat WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9ABE6E31B670EF8005644CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C9ABE6DC1B670EF8005644CE /* HeartBeat WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9ABE69B1B6704AC005644CE /* HeartBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ABE69F1B6704AC005644CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ABE6A01B6704AC005644CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9ABE6A21B6704AC005644CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9ABE6A51B6704AC005644CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9ABE6A71B6704AC005644CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9ABE6AA1B6704AC005644CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9ABE6B01B6704AC005644CE /* HeartBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ABE6B51B6704AC005644CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ABE6B61B6704AC005644CE /* HeartBeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatTests.swift; sourceTree = "<group>"; };
+		C9ABE6C41B670EF8005644CE /* HeartBeat WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartBeat WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ABE6C71B670EF8005644CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ABE6C81B670EF8005644CE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C9ABE6CA1B670EF8005644CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9ABE6CE1B670EF8005644CE /* HeartBeat WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartBeat WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ABE6D41B670EF8005644CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ABE6D61B670EF8005644CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C9ABE6D81B670EF8005644CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9ABE6981B6704AC005644CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6AD1B6704AC005644CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6C11B670EF8005644CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9ABE6921B6704AC005644CE = {
+			isa = PBXGroup;
+			children = (
+				C9ABE69D1B6704AC005644CE /* HeartBeat */,
+				C9ABE6B31B6704AC005644CE /* HeartBeatTests */,
+				C9ABE6C51B670EF8005644CE /* HeartBeat WatchKit Extension */,
+				C9ABE6D21B670EF8005644CE /* HeartBeat WatchKit App */,
+				C9ABE69C1B6704AC005644CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9ABE69C1B6704AC005644CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE69B1B6704AC005644CE /* HeartBeat.app */,
+				C9ABE6B01B6704AC005644CE /* HeartBeatTests.xctest */,
+				C9ABE6C41B670EF8005644CE /* HeartBeat WatchKit Extension.appex */,
+				C9ABE6CE1B670EF8005644CE /* HeartBeat WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9ABE69D1B6704AC005644CE /* HeartBeat */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6A01B6704AC005644CE /* AppDelegate.swift */,
+				C9ABE6A41B6704AC005644CE /* Main.storyboard */,
+				C9ABE6A21B6704AC005644CE /* ViewController.swift */,
+				C9ABE6A71B6704AC005644CE /* Images.xcassets */,
+				C9ABE6A91B6704AC005644CE /* LaunchScreen.xib */,
+				C9ABE69E1B6704AC005644CE /* Supporting Files */,
+			);
+			path = HeartBeat;
+			sourceTree = "<group>";
+		};
+		C9ABE69E1B6704AC005644CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE69F1B6704AC005644CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9ABE6B31B6704AC005644CE /* HeartBeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6B61B6704AC005644CE /* HeartBeatTests.swift */,
+				C9ABE6B41B6704AC005644CE /* Supporting Files */,
+			);
+			path = HeartBeatTests;
+			sourceTree = "<group>";
+		};
+		C9ABE6B41B6704AC005644CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6B51B6704AC005644CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9ABE6C51B670EF8005644CE /* HeartBeat WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6C81B670EF8005644CE /* InterfaceController.swift */,
+				C9ABE6CA1B670EF8005644CE /* Images.xcassets */,
+				C9ABE6C61B670EF8005644CE /* Supporting Files */,
+			);
+			path = "HeartBeat WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C9ABE6C61B670EF8005644CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6C71B670EF8005644CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9ABE6D21B670EF8005644CE /* HeartBeat WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6D51B670EF8005644CE /* Interface.storyboard */,
+				C9ABE6D81B670EF8005644CE /* Images.xcassets */,
+				C9ABE6D31B670EF8005644CE /* Supporting Files */,
+			);
+			path = "HeartBeat WatchKit App";
+			sourceTree = "<group>";
+		};
+		C9ABE6D31B670EF8005644CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9ABE6D41B670EF8005644CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9ABE69A1B6704AC005644CE /* HeartBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ABE6BA1B6704AC005644CE /* Build configuration list for PBXNativeTarget "HeartBeat" */;
+			buildPhases = (
+				C9ABE6971B6704AC005644CE /* Sources */,
+				C9ABE6981B6704AC005644CE /* Frameworks */,
+				C9ABE6991B6704AC005644CE /* Resources */,
+				C9ABE6E31B670EF8005644CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9ABE6DB1B670EF8005644CE /* PBXTargetDependency */,
+			);
+			name = HeartBeat;
+			productName = HeartBeat;
+			productReference = C9ABE69B1B6704AC005644CE /* HeartBeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9ABE6AF1B6704AC005644CE /* HeartBeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ABE6BD1B6704AC005644CE /* Build configuration list for PBXNativeTarget "HeartBeatTests" */;
+			buildPhases = (
+				C9ABE6AC1B6704AC005644CE /* Sources */,
+				C9ABE6AD1B6704AC005644CE /* Frameworks */,
+				C9ABE6AE1B6704AC005644CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9ABE6B21B6704AC005644CE /* PBXTargetDependency */,
+			);
+			name = HeartBeatTests;
+			productName = HeartBeatTests;
+			productReference = C9ABE6B01B6704AC005644CE /* HeartBeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9ABE6C31B670EF8005644CE /* HeartBeat WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ABE6E01B670EF8005644CE /* Build configuration list for PBXNativeTarget "HeartBeat WatchKit Extension" */;
+			buildPhases = (
+				C9ABE6C01B670EF8005644CE /* Sources */,
+				C9ABE6C11B670EF8005644CE /* Frameworks */,
+				C9ABE6C21B670EF8005644CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9ABE6D11B670EF8005644CE /* PBXTargetDependency */,
+			);
+			name = "HeartBeat WatchKit Extension";
+			productName = "HeartBeat WatchKit Extension";
+			productReference = C9ABE6C41B670EF8005644CE /* HeartBeat WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C9ABE6CD1B670EF8005644CE /* HeartBeat WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ABE6DD1B670EF8005644CE /* Build configuration list for PBXNativeTarget "HeartBeat WatchKit App" */;
+			buildPhases = (
+				C9ABE6CC1B670EF8005644CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartBeat WatchKit App";
+			productName = "HeartBeat WatchKit App";
+			productReference = C9ABE6CE1B670EF8005644CE /* HeartBeat WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9ABE6931B6704AC005644CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Code the World";
+				TargetAttributes = {
+					C9ABE69A1B6704AC005644CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C9ABE6AF1B6704AC005644CE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C9ABE69A1B6704AC005644CE;
+					};
+					C9ABE6C31B670EF8005644CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C9ABE6CD1B670EF8005644CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C9ABE6961B6704AC005644CE /* Build configuration list for PBXProject "HeartBeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9ABE6921B6704AC005644CE;
+			productRefGroup = C9ABE69C1B6704AC005644CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9ABE69A1B6704AC005644CE /* HeartBeat */,
+				C9ABE6AF1B6704AC005644CE /* HeartBeatTests */,
+				C9ABE6C31B670EF8005644CE /* HeartBeat WatchKit Extension */,
+				C9ABE6CD1B670EF8005644CE /* HeartBeat WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9ABE6991B6704AC005644CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABE6A61B6704AC005644CE /* Main.storyboard in Resources */,
+				C9ABE6AB1B6704AC005644CE /* LaunchScreen.xib in Resources */,
+				C9ABE6A81B6704AC005644CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6AE1B6704AC005644CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6C21B670EF8005644CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABE6CB1B670EF8005644CE /* Images.xcassets in Resources */,
+				C9ABE6CF1B670EF8005644CE /* HeartBeat WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6CC1B670EF8005644CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABE6D71B670EF8005644CE /* Interface.storyboard in Resources */,
+				C9ABE6D91B670EF8005644CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9ABE6971B6704AC005644CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABE6A31B6704AC005644CE /* ViewController.swift in Sources */,
+				C9ABE6A11B6704AC005644CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6AC1B6704AC005644CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABE6B71B6704AC005644CE /* HeartBeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ABE6C01B670EF8005644CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABE6C91B670EF8005644CE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9ABE6B21B6704AC005644CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9ABE69A1B6704AC005644CE /* HeartBeat */;
+			targetProxy = C9ABE6B11B6704AC005644CE /* PBXContainerItemProxy */;
+		};
+		C9ABE6D11B670EF8005644CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9ABE6CD1B670EF8005644CE /* HeartBeat WatchKit App */;
+			targetProxy = C9ABE6D01B670EF8005644CE /* PBXContainerItemProxy */;
+		};
+		C9ABE6DB1B670EF8005644CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9ABE6C31B670EF8005644CE /* HeartBeat WatchKit Extension */;
+			targetProxy = C9ABE6DA1B670EF8005644CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9ABE6A41B6704AC005644CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9ABE6A51B6704AC005644CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9ABE6A91B6704AC005644CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9ABE6AA1B6704AC005644CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C9ABE6D51B670EF8005644CE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9ABE6D61B670EF8005644CE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9ABE6B81B6704AC005644CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9ABE6B91B6704AC005644CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9ABE6BB1B6704AC005644CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9ABE6BC1B6704AC005644CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9ABE6BE1B6704AC005644CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeartBeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBeat.app/HeartBeat";
+			};
+			name = Debug;
+		};
+		C9ABE6BF1B6704AC005644CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeartBeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBeat.app/HeartBeat";
+			};
+			name = Release;
+		};
+		C9ABE6DE1B670EF8005644CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HeartBeat_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartBeat WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C9ABE6DF1B670EF8005644CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HeartBeat_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartBeat WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C9ABE6E11B670EF8005644CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeartBeat WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9ABE6E21B670EF8005644CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HeartBeat WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9ABE6961B6704AC005644CE /* Build configuration list for PBXProject "HeartBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ABE6B81B6704AC005644CE /* Debug */,
+				C9ABE6B91B6704AC005644CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9ABE6BA1B6704AC005644CE /* Build configuration list for PBXNativeTarget "HeartBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ABE6BB1B6704AC005644CE /* Debug */,
+				C9ABE6BC1B6704AC005644CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9ABE6BD1B6704AC005644CE /* Build configuration list for PBXNativeTarget "HeartBeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ABE6BE1B6704AC005644CE /* Debug */,
+				C9ABE6BF1B6704AC005644CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9ABE6DD1B670EF8005644CE /* Build configuration list for PBXNativeTarget "HeartBeat WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ABE6DE1B670EF8005644CE /* Debug */,
+				C9ABE6DF1B670EF8005644CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9ABE6E01B670EF8005644CE /* Build configuration list for PBXNativeTarget "HeartBeat WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ABE6E11B670EF8005644CE /* Debug */,
+				C9ABE6E21B670EF8005644CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9ABE6931B6704AC005644CE /* Project object */;
+}

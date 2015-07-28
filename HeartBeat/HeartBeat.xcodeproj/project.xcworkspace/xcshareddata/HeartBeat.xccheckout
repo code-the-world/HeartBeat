@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3F88AA2-DB4A-44AD-824F-4CA73725EF0E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HeartBeat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5CEA81DEF8F355E66AAC43F6DBF5A1236D5536B</key>
+		<string>https://github.com/code-the-world/HeartBeat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HeartBeat/HeartBeat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5CEA81DEF8F355E66AAC43F6DBF5A1236D5536B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/code-the-world/HeartBeat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5CEA81DEF8F355E66AAC43F6DBF5A1236D5536B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5CEA81DEF8F355E66AAC43F6DBF5A1236D5536B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HeartBeat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
