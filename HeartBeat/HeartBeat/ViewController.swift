@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     func calculateHeartBeat() {
         let heartbeat = 100;
         self.currentHeartbeat.text = String(heartbeat);
-        UIViewController.
     }
     
 }
